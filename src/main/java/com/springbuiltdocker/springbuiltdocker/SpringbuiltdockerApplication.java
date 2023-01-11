@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbuiltdockerApplication {
 
+    /*
+    Normal method to check docker is running successfully
+     */
     @GetMapping("/image")
     public String runImage() {
         return "docker image created and running successfully";
